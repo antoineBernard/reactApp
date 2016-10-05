@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import TweetBox from './TweetBox';
+import TweetBox     from './TweetBox';
+import FilteredList from './FilteredList';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
           <h2>TweetBox en React</h2>
         </div>
         <TweetBox/>
+        <FilteredList/>
       </div>
     );
   }

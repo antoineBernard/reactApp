@@ -34,7 +34,7 @@ var TweetBox = React.createClass({
 
   render: function() {
     return (
-      <div className="well clearfix">
+      <div className="twitter-box well clearfix">
         { this.overflowAlert() }
         <textarea className="form-control"
                   onChange={this.handleChange}></textarea>
