@@ -17,9 +17,8 @@ var TweetBox = React.createClass({
         <textarea className="form-control"
                   onChange={this.handleChange}></textarea>
         <br/>
-        <button className="btn btn-primary pull-right disabled">Tweet</button>
-        <br/>
-        {this.state.text}
+        <button className="btn btn-primary pull-right"
+                disabled={this.state.text.length === 0}>Tweet</button>
       </div>
     );
   }
