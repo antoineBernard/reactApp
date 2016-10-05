@@ -26,7 +26,7 @@ var FilteredList = React.createClass({
 
   render: function() {
     return (
-      <div className="twitter-box well clearfix">
+      <div className="filter-list">
         <input type="text" placeholder="Search" onChange={this.filterList}/>
         <List items={this.state.items}/>
       </div>
